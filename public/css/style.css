@@ -1,0 +1,68 @@
+body {
+	background-image: url("../img/background.png");
+	min-height: 100%;
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	text-align: center;
+	text-anchor: end;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: navy;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	border-right: 2px solid blue;
+	color: gold;
+	text-align: center;
+	background-color: navy;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .links:hover .dropbtn {
+    background-color: black;
+}
+
+li.links {
+    display: inline-block;
+}
+
+.links-content {
+    display: none;
+    position: absolute;
+    background-color: navy;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.links-content a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.links-content a:hover {background-color: black}
+
+.links:hover .links-content {
+    display: block;
+}
+
+footer {
+	position: relative;
+	top: 90%
+}
