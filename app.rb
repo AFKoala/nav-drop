@@ -5,11 +5,11 @@ get '/' do
 	erb :index
 end
 
-get '/coins' do
+get '/coins.asp' do
 	erb :coins
 end
 
-post '/coins' do
+post '/user_change' do
     cents_given_to_me = params[:cents_given_to_me]
     coins_given_to_customer = params[:coins_given_to_customer]
     coins_given_to_customer = coin_changer(cents_given_to_me)
