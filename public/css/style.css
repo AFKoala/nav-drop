@@ -67,5 +67,9 @@ footer {
 }
 
 #Coins:hover{
-    background-image: url("../public/img/mm.jpg");
+	background-image: url("../img/mm.jpg");
+	min-height: 100%;
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
 };
