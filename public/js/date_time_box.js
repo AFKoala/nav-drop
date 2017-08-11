@@ -1,1 +1,1 @@
-<type="button" onclick="windows.confirm("Is it currently TIME on DATE?")">
+Function Date().toDateString()
