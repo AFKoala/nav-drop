@@ -8,10 +8,6 @@ body {
 	text-align: center;
 	text-anchor: end;
 }
-#Coins:hover{
-    background-image: url("../public/img/mm.jpg");
-};
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -69,3 +65,7 @@ footer {
 	position: relative;
 	top: 90%
 }
+
+#Coins:hover{
+    background-image: url("../public/img/mm.jpg");
+};
