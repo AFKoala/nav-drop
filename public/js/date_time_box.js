@@ -1,1 +1,5 @@
-Function Date().toDateString()
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = Date();
+</script>

@@ -8,6 +8,7 @@ body {
 	text-align: center;
 	text-anchor: end;
 }
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -55,7 +56,9 @@ li.links {
     text-align: left;
 }
 
-.links-content a:hover {background-color: black}
+.links-content a:hover {
+	background-color: black
+}
 
 .links:hover .links-content {
     display: block;
@@ -66,6 +69,6 @@ footer {
 	top: 90%
 }
 
-#Coins:hover{
-	background-image: url("../img/mm.jpg/");
-}
+ #Coins:hover{
+	background-image: url("../img/mm.jpg/")
+} 
