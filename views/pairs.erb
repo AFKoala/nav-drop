@@ -1,0 +1,41 @@
+<! doctype HTML>
+
+<html lang="en">
+
+<html>
+
+<head>
+
+	<link rel ="stylesheet" href ="css/style.css"
+
+	<ul>
+		<ul style=list-style: none;>
+		<li><a href="about.asp">About</a></li>
+		<li><a href="contact.asp">Contact</a></li>
+		<li class="Links">
+			<a href="javascript:void(0)" class="dropbtn">Links</a>
+			<div class="links-content">
+				<a href="https://www.google.com/">Google</a>
+				<a href="http://www.minedminds.org/">Mined Minds</a>
+				<a href="https://stackoverflow.com/">Stack Overflow</a>
+			</div>
+		</li>
+		<li><a href="coins.asp">Change Machine</a></li>
+		<li><a href="pairings.asp">Pair Up!</a></li>
+	</ul>
+
+</head>
+
+<body>
+    <form>
+        How many names do you need to pair?<br>
+		<script src="../js/pairs.js"></script>
+        <input type="number" id="student" name="student" autofocus="autofocus" placeholder="Enter a number">
+		<input type="button" onclick="addinputFields()" name="Generate Fields" value="Generate Fields">
+		<p id="demo"></p>
+    </form>
+</body>
+
+<footer>
+	<input type="submit">
+</footer>
